@@ -1983,6 +1983,7 @@ input, select, textarea {
 
 				ul.contact li:hover a.fa-instagram {
 					background-color: #2E5E86;
+					
 				}
 
 				ul.contact li:hover a.fa-google-plus {
@@ -1995,6 +1996,18 @@ input, select, textarea {
 
 			ul.contact li:active {
 				top: 0;
+			}
+
+			.fa-home {
+				text-decoration: none;
+			}
+			
+			.fa-instagram {
+				text-decoration:none;
+			}
+
+			.fa-twitter {
+				text-decoration:none;
 			}
 
 /* Special */
@@ -2292,6 +2305,11 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
+		}
+
+		.labelHide {
+			display:none;
+			text-decoration: none;
 		}
 
 		.icon.solid:before {

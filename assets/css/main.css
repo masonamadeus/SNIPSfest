@@ -1965,6 +1965,10 @@ input, select, textarea {
 					background-color: #3C5A98;
 				}
 
+				ul.contact li:hover a.fa-envelope {
+					background-color: #749be9;
+				}
+
 				ul.contact li:hover a.fa-twitter {
 					background-color: #2DAAE4;
 				}
@@ -1983,6 +1987,10 @@ input, select, textarea {
 
 				ul.contact li:hover a.fa-google-plus {
 					background-color: #DA2713;
+				}
+
+				ul.contact li:hover a.fa-home {
+					background-color: #050303;
 				}
 
 			ul.contact li:active {

@@ -201,7 +201,7 @@ input, select, textarea {
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
-			margin-bottom: 0;
+			margin-bottom: 2em;
 		}
 
 	header > p {
@@ -2001,7 +2001,7 @@ input, select, textarea {
 			.fa-home {
 				text-decoration: none;
 			}
-			
+
 			.fa-instagram {
 				text-decoration:none;
 			}
@@ -2220,7 +2220,7 @@ input, select, textarea {
 
 		.box.highlight h2 {
 			font-size: 3em;
-			margin: 0 0 0.25em 0;
+			margin: 0 0 em 0;
 		}
 
 		.box.highlight header > p {
@@ -2355,7 +2355,8 @@ input, select, textarea {
 			}
 
 			#header .logo h1 {
-				display: inline;
+				/* display: inline; */
+				font-size: 4rem;
 			}
 
 			#header .logo p {
@@ -2570,7 +2571,7 @@ input, select, textarea {
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
-		padding: 6em 0 6em 0;
+		padding: 3em 0 3em 0;
 	}
 
 /* Sidebar + Content */
@@ -2582,6 +2583,7 @@ input, select, textarea {
 
 		.sidebar h2.major span {
 			padding-left: 0;
+			padding: 0 0 0 0 ;
 		}
 
 /* Footer */

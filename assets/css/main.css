@@ -82,6 +82,8 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+		
+
 	body {
 		background: #f2f5f3;
 	}
@@ -144,15 +146,6 @@ input, select, textarea {
 		font-size: 1.25em;
 	}
 
-	a {
-		color: #006376;
-		text-decoration: underline;
-	}
-
-		a:hover {
-			text-decoration: none;
-		}
-
 	b, strong {
 		font-weight: 700;
 		color: #6b7770;
@@ -194,6 +187,36 @@ input, select, textarea {
 		margin-bottom: 3em;
 	}
 
+/* links */
+
+	a.general-link {
+		text-decoration: none;
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+		padding: .25em .25em;
+		/* display: block;
+		position: relative;
+		width: 48px;
+		height: 48px;
+		border-radius: 6px;
+		outline: 0;
+		background: #c1cac5;
+		text-align: center; */
+	}
+
+	a.general-link:before {
+		color: #f2f5f3;
+		font-size: 32px;
+		line-height: 48px;
+	}
+
+	a.general-link:hover {
+		background-color: #d1d4d39c;
+		border-radius: .5em;
+	}
+
 /* Section/Article */
 
 	section, article {
@@ -201,7 +224,7 @@ input, select, textarea {
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
-			margin-bottom: 0;
+			margin-bottom: 2em;
 		}
 
 	header > p {
@@ -492,7 +515,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-200 > * {
-				padding: 100px 0 0 100px;
+				padding: 40px 0 0 100px;
 			}
 
 			.row.gtr-200.gtr-uniform {
@@ -735,7 +758,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 100px 0 0 100px;
+						padding: 40px 0 0 100px;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -980,7 +1003,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 80px 0 0 80px;
+						padding: 40px 0 0 80px;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -1225,7 +1248,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 100px 0 0 100px;
+						padding: 40px 0 0 100px;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -1965,6 +1988,10 @@ input, select, textarea {
 					background-color: #3C5A98;
 				}
 
+				ul.contact li:hover a.fa-envelope {
+					background-color: #749be9;
+				}
+
 				ul.contact li:hover a.fa-twitter {
 					background-color: #2DAAE4;
 				}
@@ -1979,15 +2006,40 @@ input, select, textarea {
 
 				ul.contact li:hover a.fa-instagram {
 					background-color: #2E5E86;
+					
 				}
 
 				ul.contact li:hover a.fa-google-plus {
 					background-color: #DA2713;
 				}
 
+				ul.contact li:hover a.fa-home {
+					background-color: #050303;
+				}
+
 			ul.contact li:active {
 				top: 0;
 			}
+
+			.fa-home {
+				text-decoration: none;
+			}
+
+			.fa-instagram {
+				text-decoration:none;
+			}
+
+			.fa-twitter {
+				text-decoration:none;
+			}
+
+
+		ul.footer-info {
+			list-style: none;
+			padding-left: 0;
+			cursor: default;
+		}
+
 
 /* Special */
 
@@ -2199,7 +2251,7 @@ input, select, textarea {
 
 		.box.highlight h2 {
 			font-size: 3em;
-			margin: 0 0 0.25em 0;
+			margin: 0 0 em 0;
 		}
 
 		.box.highlight header > p {
@@ -2286,6 +2338,11 @@ input, select, textarea {
 			display: none;
 		}
 
+		.labelHide {
+			display:none;
+			text-decoration: none;
+		}
+
 		.icon.solid:before {
 			font-weight: 900;
 		}
@@ -2329,7 +2386,8 @@ input, select, textarea {
 			}
 
 			#header .logo h1 {
-				display: inline;
+				/* display: inline; */
+				font-size: 4rem;
 			}
 
 			#header .logo p {
@@ -2340,11 +2398,11 @@ input, select, textarea {
 /* Nav */
 
 	body {
-		padding-top: 3.25em;
+		/* padding-top: 3.25em; */
 	}
 
 	#nav {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		left: 0;
 		z-index: 1000;
@@ -2544,7 +2602,7 @@ input, select, textarea {
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
-		padding: 6em 0 6em 0;
+		padding: 3em 0 3em 0;
 	}
 
 /* Sidebar + Content */
@@ -2556,6 +2614,7 @@ input, select, textarea {
 
 		.sidebar h2.major span {
 			padding-left: 0;
+			padding: 0 0 0 0 ;
 		}
 
 /* Footer */
@@ -2576,6 +2635,14 @@ input, select, textarea {
 			#footer h2.major span {
 				background: #f2f5f3;
 			}
+	
+		.footer-info {
+			list-style-type:none;
+			display: flex;
+			justify-content: center;
+			padding-left: 0;
+			/* text-decoration:none; */
+		}
 
 /* Copyright */
 
@@ -2585,7 +2652,7 @@ input, select, textarea {
 		padding: 0.75em 2em 0.75em 2em;
 		border-radius: 8px;
 		color: #8b9790;
-		margin: 4em 0 0 0;
+		/* margin: 4em 0 0 0; */
 	}
 
 		#copyright a {

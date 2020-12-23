@@ -82,6 +82,8 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+		
+
 	body {
 		background: #f2f5f3;
 	}
@@ -144,15 +146,6 @@ input, select, textarea {
 		font-size: 1.25em;
 	}
 
-	a {
-		color: #006376;
-		text-decoration: underline;
-	}
-
-		a:hover {
-			text-decoration: none;
-		}
-
 	b, strong {
 		font-weight: 700;
 		color: #6b7770;
@@ -192,6 +185,36 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 3em;
+	}
+
+/* links */
+
+	a.general-link {
+		text-decoration: none;
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+		padding: .25em .25em;
+		/* display: block;
+		position: relative;
+		width: 48px;
+		height: 48px;
+		border-radius: 6px;
+		outline: 0;
+		background: #c1cac5;
+		text-align: center; */
+	}
+
+	a.general-link:before {
+		color: #f2f5f3;
+		font-size: 32px;
+		line-height: 48px;
+	}
+
+	a.general-link:hover {
+		background-color: #d1d4d39c;
+		border-radius: .5em;
 	}
 
 /* Section/Article */
@@ -2017,42 +2040,6 @@ input, select, textarea {
 			cursor: default;
 		}
 
-		/* ul.footer-info li {
-			-moz-transition: top .15s ease-in-out;
-			-webkit-transition: top .15s ease-in-out;
-			-ms-transition: top .15s ease-in-out;
-			transition: top .15s ease-in-out;
-			position: relative;
-			display: inline-block;
-			margin: 0 0.25em 0 0.25em;
-			top: 0;
-			padding-left: 0;
-		} */
-
-			/* ul.footer-info li a {
-				-moz-transition: background-color .2s ease-in-out;
-				-webkit-transition: background-color .2s ease-in-out;
-				-ms-transition: background-color .2s ease-in-out;
-				transition: background-color .2s ease-in-out;
-				/* display: block; */
-				/* position: relative; */
-				/* width: 48px; */
-				/* height: 48px; */
-				/* border-radius: 6px; */
-				/* outline: 0; */
-				/* background: #c1cac5; */
-				/* text-align: center; */
-			} */
-
-				/* ul.footer-info li a:before {
-					color: #f2f5f3;
-					font-size: 32px;
-					line-height: 48px;
-				} */
-
-			/* ul.footer-info li:hover {
-				top: -2px;
-			} */
 
 /* Special */
 
@@ -2411,7 +2398,7 @@ input, select, textarea {
 /* Nav */
 
 	body {
-		padding-top: 3.25em;
+		/* padding-top: 3.25em; */
 	}
 
 	#nav {

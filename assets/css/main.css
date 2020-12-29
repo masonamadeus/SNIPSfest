@@ -2263,6 +2263,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.box.feature-left {
+		text-align: left;
+	}
+
 	.box.post header {
 		margin: 0 0 2.5em 0;
 	}
@@ -2536,12 +2540,13 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg"); 
+		/* modify background-image to change banner - consider using this to change for each page, make a new page? */
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
 		z-index: 1;
-		padding: 11em 0;
+		padding: 3em 0;
 	}
 
 		#banner .content {

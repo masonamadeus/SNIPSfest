@@ -1802,6 +1802,10 @@ input, select, textarea {
 				width: auto;
 			}
 
+	.snipsLogo {
+		width: 15%
+	}
+
 /* Button */
 
 	input[type="button"],
@@ -2261,10 +2265,18 @@ input, select, textarea {
 
 	.box.feature {
 		text-align: center;
+		margin-left:1em;
+		margin-right:1em;
+		margin-top:1em;
+		margin-bottom:1em;
 	}
 
 	.box.feature-left {
 		text-align: left;
+		margin-left:10em;
+		margin-right:10em;
+		margin-top:1em;
+		margin-bottom:1em;
 	}
 
 	.box.post header {
@@ -2369,7 +2381,7 @@ input, select, textarea {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		padding: 2em 0;
+		/* padding: 2em 0; */
 		background: #fff;
 		margin: 0 auto;
 	}
@@ -2391,7 +2403,8 @@ input, select, textarea {
 
 			#header .logo h1 {
 				/* display: inline; */
-				font-size: 4rem;
+				/* font-size: 4rem; */
+				margin-bottom:0;
 			}
 
 			#header .logo p {

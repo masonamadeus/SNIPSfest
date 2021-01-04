@@ -131,7 +131,7 @@ input, select, textarea {
 			font-size: 1.65em;
 			text-align: center;
 			margin: 0 0 3em 0;
-			top: 0.775em;
+			top: 1em;
 		}
 
 			h2.major span {
@@ -1802,9 +1802,7 @@ input, select, textarea {
 				width: auto;
 			}
 
-	.snipsLogo {
-		width: 15%
-	}
+
 
 /* Button */
 
@@ -2255,7 +2253,7 @@ input, select, textarea {
 
 		.box.highlight h2 {
 			font-size: 3em;
-			margin: 0 0 em 0;
+			margin: 0 0 1em 0;
 		}
 
 		.box.highlight header > p {
@@ -2403,7 +2401,7 @@ input, select, textarea {
 
 			#header .logo h1 {
 				/* display: inline; */
-				/* font-size: 4rem; */
+				font-size: 4rem;
 				margin-bottom:0;
 			}
 
@@ -2620,7 +2618,7 @@ input, select, textarea {
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
-		padding: 3em 0 3em 0;
+		padding: 4em 0 0 0;
 	}
 
 /* Sidebar + Content */
@@ -2639,7 +2637,7 @@ input, select, textarea {
 
 	#footer {
 		text-align: center;
-		padding: 8em 0 8em 0;
+		padding: 4em 0 4em 0;
 	}
 
 		#footer a {
@@ -3190,3 +3188,9 @@ input, select, textarea {
 			}
 
 	}
+
+.snipsLogo {
+	width: 20%
+}
+
+/* media queries - logo should hide below 1024px. consider making another rule to put logo in side nav? */

@@ -2387,7 +2387,7 @@ input, select, textarea {
 		#header .logo {
 			position: relative;
 			text-align: center;
-			border-top: solid 5px #e7eae8;
+			/* border-top: solid 5px #e7eae8; */
 			top: 0.65em;
 		}
 
@@ -3190,7 +3190,7 @@ input, select, textarea {
 	}
 
 .snipsLogo {
-	width: 20%
+	width: 40%
 }
 
 /* media queries - logo should hide below 1024px. consider making another rule to put logo in side nav? */

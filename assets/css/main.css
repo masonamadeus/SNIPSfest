@@ -1885,7 +1885,7 @@ input, select, textarea {
 /* List */
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		padding-left: 1em;
 	}
 
@@ -3190,7 +3190,20 @@ input, select, textarea {
 	}
 
 .snipsLogo {
-	width: 40%
+	width: 40%;
+}
+
+.para-block {
+	margin: -1em 3em 0 3em;
+	margin-bottom:0;
+}
+
+ul.name-list {
+	padding: 0;
+}
+
+.textLeft {
+	text-align: left;
 }
 
 /* media queries - logo should hide below 1024px. consider making another rule to put logo in side nav? */

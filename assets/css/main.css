@@ -3206,4 +3206,7 @@ ul.name-list {
 	text-align: left;
 }
 
+p > a {
+	text-decoration:none
+}
 /* media queries - logo should hide below 1024px. consider making another rule to put logo in side nav? */

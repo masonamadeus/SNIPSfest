@@ -3206,6 +3206,10 @@ input, select, textarea {
 		.contact {
 			margin-top:4.5em;
 		}
+
+		.snipsHead {
+			max-width: 40%;
+		}
 	}
 
 	@media screen and (min-width: 981px) and (max-width: 1280px) {

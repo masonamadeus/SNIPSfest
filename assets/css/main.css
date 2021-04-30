@@ -3255,6 +3255,10 @@ input, select, textarea {
 		}
 	}
 
+#twitch-embed {
+	display: none;
+}
+
 .snipsLogo {
 	width: 40%;
 	margin-bottom:0;
